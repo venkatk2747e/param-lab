@@ -5,7 +5,7 @@ choice(name: 'ENVIRONMENT', choices: ['dev', 'staging', 'prod'], description: 'S
 stages {
 stage('Checkout') {
 steps {
-git branch: 'main', url: 'https://github.com/<student-username>/<repo-name>.git'
+git branch: 'main', url: 'https://github.com/venkatk2747e/param-lab.git'
 }
 }
 stage('Show Parameter') {
